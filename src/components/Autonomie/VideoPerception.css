@@ -1,0 +1,252 @@
+.videoperception-global-div {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #07111d;
+}
+
+.micro--title {
+    height: 15%;
+    width: 30%;
+
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-Light'
+}
+
+.title--presentation {
+    height: 10%;
+    width: 50%;
+
+    color: white;
+    font-size: 44px;
+
+    position: relative;
+    bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.video--perception {
+    height: 55%;
+    width: 50%;
+
+    color: white;
+    border-radius: 20px;
+
+    position: relative;
+    top: 20px;
+}
+
+.video {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.description--video--perception {
+    height: 15%;
+    width: 30%;
+
+    color: white;
+
+    position: relative;
+    top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description--video--title {
+    height: 30%;
+    width: 100%;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.description--video--paragraphe {
+    height: 50%;
+    width: 50%;
+
+    text-align: center;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Gilroy-Light'
+}
+
+@media screen and (max-width: 1200px) {
+    .title--presentation {
+        height: 10%;
+        width: 70%;
+
+        color: white;
+        font-size: 35px;
+
+        position: relative;
+        bottom: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        font-family: 'Gilroy-ExtraBold'
+    }
+
+    .video--perception {
+        width: 90%;
+
+        color: white;
+        border-radius: 20px;
+
+        position: relative;
+        top: 20px;
+    }
+
+    .description--video--perception {
+        height: 15%;
+        width: 60%;
+
+        color: white;
+
+        position: relative;
+        top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .micro--title {
+        height: 20%;
+        width: 60%;
+
+        color: white;
+        font-size: 14px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Gilroy-Light';
+
+        margin-bottom: 0px;
+        margin-top: -60px;
+    }
+
+    .title--presentation {
+        height: 10%;
+        width: 90%;
+
+        color: white;
+        font-size: 22px;
+
+        position: relative;
+        bottom: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        font-family: 'Gilroy-ExtraBold'
+    }
+
+    .video--perception {
+        width: 90%;
+
+        color: white;
+        border-radius: 20px;
+
+        position: relative;
+        top: 20px;
+    }
+
+    .description--video--perception {
+        height: 15%;
+        width: 80%;
+
+        color: white;
+
+        position: relative;
+        top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description--video--title {
+        height: 30%;
+        width: 100%;
+    
+        font-size: 14px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+    
+        font-family: 'Gilroy-ExtraBold'
+    }
+
+    .description--video--paragraphe {
+        height: 50%;
+        width: 80%;
+    
+        text-align: center;
+        font-size: 12px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+        font-family: 'Gilroy-Light'
+    }
+}

@@ -1,0 +1,87 @@
+.div-container-exemple {
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-all-stuff {
+    height: 100%;
+    width: 90%;
+}
+
+.container-all-stuff--element {
+    height: 99%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.div-text-exemple {
+    display: flex;
+    align-items: center;
+
+    font-size: 22px;
+    font-family: 'Gilroy-Light';
+}
+
+.div-concurrent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider--container-exemple {
+    height: 1px;
+
+    background-color: lightgray;
+    position: relative;
+}
+
+.circle--icon {
+    height: 40px;
+    width: 40px;
+
+    color: lightgray;
+}
+
+.check--icon {
+    height: 40px;
+    width: 40px;
+
+    color: #FF4D00;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container-all-stuff--element {
+        height: 99%;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .check--icon {
+        height: 30px;
+        width: 30px;
+    
+        color: #FF4D00;
+    }
+    
+    .div-text-exemple {
+        display: flex;
+        align-items: center;
+    
+        font-size: 16px;
+        font-family: 'Gilroy-Light';
+    }
+
+}

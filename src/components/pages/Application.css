@@ -1,0 +1,164 @@
+.application--global-div {
+    height: 92vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.left--application {
+    height: 60vh;
+    width: 32vw;
+
+    position: relative;
+    left: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-application {
+    width: 95%;
+
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.subtitle-application {
+    font-size: 20px;
+    font-family: 'Gilroy-Light'
+}
+
+.button-application-div {
+    height: 30%;
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 22px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text--button--application {
+    height: 40%;
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.button-application-form {
+    display: flex;
+    height: 50%;
+    width: 100%;
+
+    align-items: flex-end;
+}
+
+.button-application-form>form {
+    display: flex;
+}
+
+.button-application-form-but {
+    position: relative;
+    right: 5%;
+    top: 20px;
+
+    height: 50px;
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.right--application {
+    height: 70vh;
+    width: 40vw;
+
+    position: relative;
+    left: 15%;
+}
+
+.mockup {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 700px) {
+    .left--application {
+        height: 60vh;
+        width: 80vw;
+    
+        position: relative;
+        left: 10%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .text-application {
+        width: 100%;
+
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold'
+    }
+
+    .subtitle-application {
+        font-size: 16px;
+        font-family: 'Gilroy-Light'
+    }
+
+    .button-application-div {
+        height: 30%;
+        width: 100%;
+    
+        font-weight: bold;
+        font-size: 16px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-application-form {
+        display: flex;
+        height: 50%;
+        width: 100%;
+
+        margin-top: 10%;
+    
+        align-items: flex-end;
+    }
+
+    .button-application-form-but {
+        position: relative;
+        right: 10%;
+        top: 20px;
+    
+        height: 50px;
+        width: 200px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+    
+        cursor: pointer;
+    
+        font-family: 'Gilroy-ExtraBold'
+    }
+}

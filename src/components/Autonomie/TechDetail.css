@@ -1,0 +1,377 @@
+.techdetail-global-div {
+    background-color: #07111d;
+
+    color: white;
+}
+
+
+
+
+.calibration-mapping-div {
+    height: 92vh;
+
+    display: flex;
+}
+
+.left--element-calibration {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img--calibration {
+    background-color: lightpink;
+    height: 90%;
+    width: 60%;
+
+    border-radius: 40px;
+
+    position: relative;
+    right: 5%;
+}
+
+.right--element-calibration {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-calibration {
+    width: 150px;
+    height: 150px;
+
+    /* background-color: coral; */
+    border-radius: 20px;
+
+    position: relative;
+    left: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiverbtcs_destination-tech {
+    height: 100%;
+}
+
+.text-calibration {
+    width: 50%;
+    height: 40%;
+
+    position: relative;
+    left: 10%;
+    top: 5%;
+}
+
+.calibration--title {
+    width: 100%;
+    height: 40%;
+
+    font-size: 32px;
+    font-family: 'Gilroy-ExtraBold';
+
+    display: flex;
+    align-items: center;
+}
+
+.calibration--parag {
+    width: 100%;
+    height: 60%;
+
+    font-size: 18px;
+    font-family: 'Gilroy-Light';
+}
+
+
+
+
+.computer-vision-div {
+    height: 92vh;
+    display: flex;
+}
+
+
+
+
+.teleguidance-div {
+    height: 92vh;
+    display: flex;
+    ;
+}
+
+.right--element-teleguidance {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img--teleguidance {
+    background-color: lightpink;
+    height: 90%;
+    width: 60%;
+
+    border-radius: 40px;
+
+    position: relative;
+    left: 5%;
+}
+
+.left--element-teleguidance {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logo-teleguidance {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 20px;
+
+    position: relative;
+    right: 0%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-teleguidance {
+    width: 50%;
+    height: 40%;
+
+    position: relative;
+    right: 0%;
+    left: 40%;
+    top: 5%;
+}
+
+.teleguidance--title {
+    width: 100%;
+    height: 40%;
+
+    font-size: 32px;
+    font-family: 'Gilroy-ExtraBold';
+
+    display: flex;
+    align-items: center;
+
+}
+
+.teleguidance--parag {
+    width: 100%;
+    height: 60%;
+
+    font-size: 18px;
+    font-family: 'Gilroy-Light'
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .calibration-mapping-div {
+        height: 70vh;
+
+        display: flex;
+    }
+
+    .teleguidance-div {
+        height: 70vh;
+        display: flex;
+        ;
+    }
+
+    .computer-vision-div {
+        height: 70vh;
+        display: flex;
+    }
+
+    .img--calibration {
+        background-color: lightpink;
+        height: 90%;
+        width: 80%;
+
+        border-radius: 40px;
+
+        position: relative;
+        right: 5%;
+    }
+
+    .img--teleguidance {
+        background-color: lightpink;
+        height: 90%;
+        width: 80%;
+
+        border-radius: 40px;
+
+        position: relative;
+        left: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .calibration-mapping-div {
+        height: 70vh;
+        display: flex;
+    }
+
+    .teleguidance-div {
+        height: 70vh;
+        display: flex;
+    }
+
+    .computer-vision-div {
+        height: 70vh;
+        display: flex;
+    }
+
+    .left--element-teleguidance {
+        height: 100%;
+        width: 50%;
+
+        margin-top: -10%;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .right--element-calibration {
+        height: 100%;
+        width: 50%;
+
+        margin-top: -10%;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img--calibration {
+        background-color: lightpink;
+        height: 90%;
+        width: 80%;
+
+        border-radius: 40px;
+
+        position: relative;
+        right: 5%;
+    }
+
+    .img--teleguidance {
+        background-color: lightpink;
+        height: 90%;
+        width: 80%;
+
+        border-radius: 40px;
+
+        position: relative;
+        left: 5%;
+    }
+
+    .logo-teleguidance {
+        width: 80px;
+        height: 80px;
+
+        border-radius: 20px;
+
+        position: relative;
+        right: 0%;
+        left: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-teleguidance {
+        width: 70%;
+        height: 40%;
+
+        position: relative;
+        right: 0%;
+        left: 20%;
+        top: 5%;
+    }
+
+    .teleguidance--title {
+        width: 100%;
+        height: 40%;
+
+        font-size: 16px;
+        font-family: 'Gilroy-ExtraBold';
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .teleguidance--parag {
+        width: 100%;
+        height: 60%;
+
+        font-size: 12px;
+        font-family: 'Gilroy-Light'
+    }
+
+    .logo-calibration {
+        width: 80px;
+        height: 80px;
+
+        /* background-color: coral; */
+        border-radius: 20px;
+
+        position: relative;
+        left: 10%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-calibration {
+        width: 70%;
+        height: 40%;
+
+        position: relative;
+        left: 10%;
+        top: 5%;
+    }
+
+    .calibration--title {
+        width: 100%;
+        height: 40%;
+
+        font-size: 16px;
+        font-family: 'Gilroy-ExtraBold';
+
+        display: flex;
+        align-items: center;
+    }
+
+    .calibration--parag {
+        width: 100%;
+        height: 60%;
+
+        font-size: 12px;
+        font-family: 'Gilroy-Light';
+    }
+
+}

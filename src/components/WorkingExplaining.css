@@ -1,0 +1,248 @@
+.global-div {
+  height: 92vh;
+}
+
+.title {
+  margin-top: 2%;
+  position: absolute;
+  height: 16vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+  text-align: center;
+
+  font-family: 'Gilroy-ExtraBold';
+}
+
+.inner-div {
+  position: relative;
+  height: 60vh;
+  top: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.steps {
+  margin-top: 3%;
+  position: relative;
+  height: 20vw;
+  width: 20vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image--steps {
+  position: relative;
+  height: 10vh;
+  width: 10vh;
+  top: 10%;
+}
+
+.image--steps--img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-working-ex {
+  height: 160%;
+}
+
+.title--steps {
+  position: relative;
+  height: 5vh;
+  width: 100%;
+  top: 20%;
+  font-size: 25px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Gilroy-ExtraBold';
+}
+
+.paragraphe--steps {
+  position: relative;
+  color: grey;
+  height: 10vh;
+  width: 80%;
+  top: 20%;
+  text-align: center;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Gilroy-Light';
+}
+
+@media screen and (max-width: 1490px) {
+
+  .steps {
+    margin-bottom: 10%;
+    position: relative;
+    height: 25vw;
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image--steps {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    top: 10%;
+
+    margin-bottom: 10%;
+  }
+
+  .title--steps {
+    position: relative;
+    height: 5vh;
+    width: 100%;
+    top: 20%;
+    font-size: 25px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 15%;
+
+    font-family: 'Gilroy-ExtraBold';
+  }
+
+
+}
+
+@media screen and (max-width: 950px) {
+  .inner-div {
+    position: relative;
+    height: 70vh;
+    top: 20vh;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .steps {
+    margin-top: 0%;
+    position: relative;
+    height: 50vw;
+    width: 70vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image--steps {
+    position: relative;
+    height: 8vh;
+    width: 8vh;
+    top: 25%;
+
+    margin-bottom: 10%;
+  }
+
+  .title--steps {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+
+    margin-bottom: 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-ExtraBold';
+  }
+
+  .paragraphe--steps {
+    color: grey;
+    font-size: 18px;
+    top: 12%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-Light';
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+
+  .title {
+    margin-top: 2%;
+    position: absolute;
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+
+    font-family: 'Gilroy-ExtraBold';
+  }
+
+  .image--steps {
+    position: relative;
+    height: 7vh;
+    width: 7vh;
+    top: 25%;
+
+    margin-bottom: 12%;
+  }
+
+  .title--steps {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+
+    margin-bottom: 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-ExtraBold';
+  }
+
+  .paragraphe--steps {
+    color: grey;
+    font-size: 15px;
+    top: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-Light';
+  }
+
+}

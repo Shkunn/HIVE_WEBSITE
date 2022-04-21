@@ -1,0 +1,27 @@
+.videobandeau-container {
+    height: 70vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.div-empty {
+    height: 10vh;
+}
+
+.video-bandeau {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .div-empty {
+        height: 0vh;
+    }
+}

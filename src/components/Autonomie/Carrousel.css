@@ -1,0 +1,65 @@
+.carrousel-global-div {
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07111d;
+    display: flex;
+    flex-direction: column;
+}
+
+.carroussel-image {
+    height: 53%;
+    width: 80%;
+
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.title--carrousel-global-div {
+    color: white;
+    font-size: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Gilroy-ExtraBold';
+}
+
+@media screen and (max-width: 900px) {
+
+    .carroussel-image {
+        margin-top: 10%;
+        height: 40%;
+        width: 100%;
+
+
+        position: relative;
+        margin-bottom: 150px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .title--carrousel-global-div {
+        color: white;
+        font-size: 26px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+    
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .carroussel-image {
+        margin-top: 0%;
+        height: 40%;
+        width: 100%;
+
+        position: relative;
+        margin-bottom: 150px;
+    }
+}

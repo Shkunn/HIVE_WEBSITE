@@ -1,0 +1,155 @@
+.firstpage-container {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+}
+
+.robot-img {
+    position: absolute;
+    bottom: 0;
+
+    height: 82vh;
+    width: 80%;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+}
+
+.text {
+    z-index: 99;
+    color: white;
+    height: 100%;
+    width: 80%;
+
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text--title {
+    font-size: 30px;
+    height: 10vh;
+    width: 100%;
+
+    position: relative;
+    top: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gilroy-Light'
+}
+
+.text--para {
+    font-size: 70px;
+    height: 20vh;
+    width: 100%;
+
+    position: relative;
+    top: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.robot {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+.iologo {
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+
+.iologo-position {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1450px) {
+    .text--title {
+        font-size: 24px;
+        height: 10vh;
+        width: 100%;
+
+        position: relative;
+        top: 20%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Gilroy-Light'
+    }
+
+    .text--para {
+        font-size: 50px;
+        height: 20vh;
+        width: 100%;
+
+        position: relative;
+        top: 20%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        font-family: 'Gilroy-ExtraBold'
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .text--title {
+        font-size: 24px;
+        height: 15vh;
+        width: 100%;
+
+        position: relative;
+        top: 0%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Gilroy-Light';
+    }
+
+    .text--para {
+        font-size: 30px;
+        height: 30vh;
+        width: 100%;
+
+        position: relative;
+        top: 0%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        font-family: 'Gilroy-ExtraBold'
+    }
+    
+}

@@ -1,0 +1,465 @@
+.advantage-container {
+    /* height: 260vh; */
+    width: 100%;
+}
+
+.title-div-advantage {
+    height: 20vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-advantage {
+    font-size: 32px;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.subtitle-advantage {
+    font-size: 20px;
+    color: grey;
+
+    font-family: 'Gilroy-Light';
+}
+
+.advantage-one-div {
+    height: 60vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.advantage-one-img {
+    height: 60vh;
+    width: 50vw;
+
+    background-color: royalblue;
+}
+
+.advantage-one-text-div {
+    height: 60vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.advantage-one-text-position {
+    height: 30vh;
+    width: 40vh;
+
+    position: relative;
+    left: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.advantage-one-number {
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.advantage-one-text {
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+    width: 500px;
+}
+
+.divider-advantage {
+    height: 1vh;
+    width: 3vw;
+
+    background-color: royalblue;
+    position: relative;
+    top: 4%;
+
+    border-radius: 5px;
+}
+
+.advantage-one-subtext {
+    font-size: 20px;
+    text-align: left;
+
+    font-family: 'Gilroy-Light';
+    color: grey
+}
+
+
+.advantage-two-div {
+    height: 60vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.advantage-two-img {
+    height: 60vh;
+    width: 50vw;
+
+    background-color: royalblue;
+}
+
+.advantage-two-text-div {
+    height: 60vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.advantage-two-text-position {
+    height: 30vh;
+    width: 40vh;
+
+    position: relative;
+    right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.advantage-two-number {
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.advantage-two-text {
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.advantage-two-subtext {
+    font-size: 20px;
+    text-align: left;
+
+    color: grey;
+    font-family: 'Gilroy-Light';
+
+}
+
+@media screen and (max-width: 1100px) {
+    .title-div-advantage {
+        height: 20vh;
+        width: 90%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        text-align: center;
+    }
+
+    .title-advantage {
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .subtitle-advantage {
+        font-size: 25px;
+        color: grey;
+
+        font-family: 'Gilroy-Light';
+    }
+
+    .advantage-one-div {
+        height: 60vh;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advantage-one-img {
+        height: 600px;
+        width: 350px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: royalblue;
+    }
+
+    .advantage-one-text-div {
+        height: 60vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .advantage-one-text-position {
+        height: 30vh;
+        width: 40vh;
+
+        position: relative;
+        left: 5%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .advantage-one-number {
+        font-size: 35px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .advantage-one-text {
+        font-size: 35px;
+        font-family: 'Gilroy-ExtraBold';
+
+        width: 100%;
+    }
+
+    .divider-advantage {
+        height: 1vh;
+        width: 10vw;
+
+        background-color: royalblue;
+        position: relative;
+        top: 0%;
+
+        border-radius: 5px;
+    }
+
+    .advantage-one-subtext {
+        font-size: 21px;
+        text-align: left;
+
+        font-family: 'Gilroy-Light';
+        color: grey
+    }
+
+
+    .advantage-two-div {
+        height: 60vh;
+
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .advantage-two-img {
+        height: 600px;
+        width: 350px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: royalblue;
+    }
+
+    .advantage-two-text-div {
+        height: 60vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .advantage-two-text-position {
+        height: 30vh;
+        width: 40vh;
+
+        position: relative;
+        left: 5%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .advantage-two-number {
+        font-size: 35px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .advantage-two-text {
+        font-size: 35px;
+        font-family: 'Gilroy-ExtraBold';
+
+        width: 100%;
+    }
+
+    .advantage-two-subtext {
+        font-size: 21px;
+        text-align: left;
+
+        font-family: 'Gilroy-Light';
+        color: grey
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .title-div-advantage {
+        height: 20vh;
+        width: 90%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        text-align: center;
+    }
+
+    .title-advantage {
+        font-size: 26px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .subtitle-advantage {
+        font-size: 20px;
+        color: grey;
+
+        font-family: 'Gilroy-Light';
+    }
+
+    .advantage-one-div {
+        height: 60vh;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advantage-one-img {
+        height: 60vh;
+        width: 50vw;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: royalblue;
+    }
+
+    .advantage-one-text-div {
+        height: 60vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .advantage-one-text-position {
+        height: 30vh;
+        width: 40vh;
+
+        position: relative;
+        left: 5%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .advantage-one-number {
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .advantage-one-text {
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold';
+
+        width: 100%;
+    }
+
+    .divider-advantage {
+        height: 1vh;
+        width: 20vw;
+
+        background-color: royalblue;
+        position: relative;
+        top: 0%;
+
+        border-radius: 5px;
+    }
+
+    .advantage-one-subtext {
+        font-size: 16px;
+        text-align: left;
+
+        font-family: 'Gilroy-Light';
+        color: grey
+    }
+
+
+    .advantage-two-div {
+        height: 60vh;
+
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .advantage-two-img {
+        height: 60vh;
+        width: 50vw;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: royalblue;
+    }
+
+    .advantage-two-text-div {
+        height: 60vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .advantage-two-text-position {
+        height: 30vh;
+        width: 40vh;
+
+        position: relative;
+        left: 5%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .advantage-two-number {
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold';
+    }
+
+    .advantage-two-text {
+        font-size: 30px;
+        font-family: 'Gilroy-ExtraBold';
+
+        width: 100%;
+    }
+
+    .advantage-two-subtext {
+        font-size: 16px;
+        text-align: left;
+
+        font-family: 'Gilroy-Light';
+        color: grey
+    }
+
+}

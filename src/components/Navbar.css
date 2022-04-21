@@ -1,0 +1,170 @@
+.navbar {
+  background-color: white;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.navbar-hiverbtcsLock {
+  padding: 0.4rem 0rem;
+  height: 100%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo--navbar {
+  height: 100%;
+  padding: 2px;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 50vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 8vh;
+}
+
+.nav-links {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+
+  font-family: 'Gilroy-Light';
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #FF4D00;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .logo--navbar {
+    height: 100%;
+    padding: 8px;
+  }
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    top: 8vh;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: black;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    margin-top: -70vh;
+
+    color: #fff;
+    font-family: 'Gilroy-Light';
+  }
+
+  .nav-links:hover {
+    color: #FF4D00;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: black;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    margin-top: -60vh;
+
+    font-family: 'Gilroy-Light';
+  }
+
+  .nav-links-mobile:hover {
+    background: #FF4D00;
+    border: 1px solid #FF4D00;
+    color: #fff;
+    transition: 250ms;
+  }
+}
