@@ -23,14 +23,21 @@
 }
 
 .img--calibration {
-    background-color: lightpink;
-    height: 90%;
+    height: 60%;
     width: 60%;
 
     border-radius: 40px;
 
     position: relative;
     right: 5%;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.computer-vision-img {
+    height: 100%;
 }
 
 .right--element-calibration {
@@ -46,7 +53,6 @@
     width: 150px;
     height: 150px;
 
-    /* background-color: coral; */
     border-radius: 20px;
 
     position: relative;
@@ -81,7 +87,26 @@
     align-items: center;
 }
 
+.calibration--title-computer {
+    width: 100%;
+    height: 40%;
+
+    font-size: 32px;
+    font-family: 'Gilroy-ExtraBold';
+
+    display: flex;
+    align-items: center;
+}
+
 .calibration--parag {
+    width: 100%;
+    height: 60%;
+
+    font-size: 18px;
+    font-family: 'Gilroy-Light';
+}
+
+.calibration--parag-computer {
     width: 100%;
     height: 60%;
 
@@ -96,7 +121,6 @@
     height: 92vh;
     display: flex;
 }
-
 
 
 
@@ -116,12 +140,14 @@
 }
 
 .img--teleguidance {
-    background-color: lightpink;
-    height: 90%;
+    /* height: 90%;
+    width: 60%; */
+    height: 75%;
     width: 60%;
 
     border-radius: 40px;
 
+    overflow: hidden;
     position: relative;
     left: 5%;
 }
@@ -188,41 +214,178 @@
         height: 70vh;
 
         display: flex;
+        flex-direction: column;
+    }
+
+    .left--element-calibration {
+        margin-top: 5%;
+
+        height: 50%;
+        width: 80%;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img--calibration {
+        height: 80%;
+        width: 100%;
+
+        border-radius: 40px;
+
+        position: relative;
+        right: 0%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        overflow: hidden;
+    }
+
+    .right--element-calibration {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .teleguidance-div {
         height: 70vh;
         display: flex;
-        ;
+
+        flex-direction: column-reverse;
+    }
+
+    .left--element-teleguidance {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img--teleguidance {
+
+        height: 80%;
+        width: 100%;
+
+        border-radius: 40px;
+
+        position: relative;
+        left: 0%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        overflow: hidden;
+    }
+
+    .computer-vision-img {
+        height: 150%;
+        border-radius: 50px;
+    }
+
+    .calibration--title {
+        width: 100%;
+        height: 40%;
+
+        font-size: 32px;
+        font-family: 'Gilroy-ExtraBold';
+
+        display: flex;
+        align-items: center;
+
+        margin-top: 5%;
+    }
+
+    .calibration--parag {
+        width: 100%;
+        height: 60%;
+
+        font-size: 18px;
+        font-family: 'Gilroy-Light';
+
+        margin-top: 5%;
+    }
+
+
+
+
+    .right--element-teleguidance {
+        margin-top: 10%;
+
+        height: 50%;
+        width: 80%;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-teleguidance {
+        width: 150px;
+        height: 150px;
+
+        border-radius: 20px;
+
+        position: relative;
+        right: 0%;
+        left: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-teleguidance {
+        width: 50%;
+        height: 40%;
+
+        position: relative;
+        right: 0%;
+        left: 10%;
+        top: 5%;
     }
 
     .computer-vision-div {
         height: 70vh;
         display: flex;
+
+        flex-direction: column;
     }
 
-    .img--calibration {
-        background-color: lightpink;
-        height: 90%;
-        width: 80%;
+    .calibration--parag-computer {
+        width: 100%;
+        height: 60%;
 
-        border-radius: 40px;
-
-        position: relative;
-        right: 5%;
+        font-size: 18px;
+        font-family: 'Gilroy-Light';
+        margin-top: 0%;
     }
 
-    .img--teleguidance {
-        background-color: lightpink;
-        height: 90%;
-        width: 80%;
+    .calibration--title-computer {
+        width: 100%;
+        height: 40%;
+    
+        font-size: 32px;
+        font-family: 'Gilroy-ExtraBold';
+    
+        display: flex;
+        align-items: center;
 
-        border-radius: 40px;
-
-        position: relative;
-        left: 5%;
+        margin-top: 0%;
     }
-
 }
 
 
@@ -266,7 +429,6 @@
     }
 
     .img--calibration {
-        background-color: lightpink;
         height: 90%;
         width: 80%;
 
@@ -277,7 +439,6 @@
     }
 
     .img--teleguidance {
-        background-color: lightpink;
         height: 90%;
         width: 80%;
 

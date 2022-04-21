@@ -3,6 +3,9 @@ import { motion } from 'framer-motion'
 import hiverbtcs_destination from '../../images/Pngs/white/hiverbtcs_destination_w.png';
 import hiverbtcs_calibration from '../../images/Pngs/white/hiverbtcs_calibration_w.png';
 import hiverbtcs_hivonauts from '../../images/Pngs/white/hiverbtcs_hivonaut_w.png';
+import computer_vision from '../../images/computer-vision.png';
+import hivonaut_pic from '../../images/Hivonaut_pic.jpg';
+import mapping_calib from '../../images/mapping_calibration.png';
 
 
 function TechDetail() {
@@ -17,9 +20,10 @@ function TechDetail() {
                         initial={{ scale: 0.9 }}
                         whileInView={{ scale: 1 }}
                     >
-
+                        <img src={mapping_calib} alt="mapping_calib" className='computer-vision-img' />
                     </motion.div>
                 </div>
+
                 <div className="right--element-calibration">
                     <div className="logo-calibration">
                         <img src={hiverbtcs_destination} alt="Logo" className='hiverbtcs_destination-tech' />
@@ -58,7 +62,7 @@ function TechDetail() {
                         initial={{ scale: 0.9 }}
                         whileInView={{ scale: 1 }}
                     >
-
+                        <img src={hivonaut_pic} alt="hivonaut_pic" className='computer-vision-img' />
                     </motion.div>
                 </div>
             </div>
@@ -70,18 +74,19 @@ function TechDetail() {
                         initial={{ scale: 0.9 }}
                         whileInView={{ scale: 1 }}
                     >
-
+                        <img src={computer_vision} alt="computer_vision" className='computer-vision-img' />
                     </motion.div>
                 </div>
+
                 <div className="right--element-calibration">
                     <div className="logo-calibration">
                         <img src={hiverbtcs_calibration} alt="Logo" className='hiverbtcs_destination-tech' />
                     </div>
                     <div className="text-calibration">
-                        <div className="calibration--title">
+                        <div className="calibration--title-computer">
                             COMPUTER VISION
                         </div>
-                        <div className="calibration--parag">
+                        <div className="calibration--parag-computer">
                             La Computer Vision permet à notre robots de comprendre les détails de leurs environnements. Par exemple, pour être capable de prédire si un piéton est susceptible de croiser son chemin.
                         </div>
 
