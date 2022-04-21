@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/HIVE_WEBSITE/static/css/main.96336f28.css",
+    "main.js": "/HIVE_WEBSITE/static/js/main.426020b4.js",
+    "static/media/Devo_Promo.mp4": "/HIVE_WEBSITE/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
+    "static/media/robot_frontview2.png": "/HIVE_WEBSITE/static/media/robot_frontview2.d4340d23afa0f82cc4bf.png",
+    "static/media/robot_side_view.jpg": "/HIVE_WEBSITE/static/media/robot_side_view.224a040bc0c26c1af19f.jpg",
+    "static/media/arriere_base.png": "/HIVE_WEBSITE/static/media/arriere_base.6a64de2b706db912b2c4.png",
+    "static/media/Mockup.png": "/HIVE_WEBSITE/static/media/Mockup.927a3e784fd031fa4f56.png",
+    "static/media/hiverbtcsLock-up - Color.png": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.4479c299d5dcfc891d67.png",
+    "static/media/Gilroy-ExtraBold.otf": "/HIVE_WEBSITE/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/HIVE_WEBSITE/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/hiverbtcs_calibration_w.png": "/HIVE_WEBSITE/static/media/hiverbtcs_calibration_w.cc029ceaa0eedc575abc.png",
+    "static/media/hiverbtcs_destination_w.png": "/HIVE_WEBSITE/static/media/hiverbtcs_destination_w.41db02fd567b8da9d093.png",
+    "static/media/hiverbtcs_hivonaut_w.png": "/HIVE_WEBSITE/static/media/hiverbtcs_hivonaut_w.7f6fcc4c21c5b39b46ad.png",
+    "static/media/Inno_la_defense.png": "/HIVE_WEBSITE/static/media/Inno_la_defense.6f04c496fae1c977f89b.png",
+    "static/media/Moovje.png": "/HIVE_WEBSITE/static/media/Moovje.e9e9a4a71f1e603430e6.png",
+    "static/media/hiverbtcs_account-0.png": "/HIVE_WEBSITE/static/media/hiverbtcs_account-0.438e50226cac486a1089.png",
+    "static/media/hiverbtcsLock-up - Color.svg": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
+    "index.html": "/HIVE_WEBSITE/index.html",
+    "main.96336f28.css.map": "/HIVE_WEBSITE/static/css/main.96336f28.css.map",
+    "main.426020b4.js.map": "/HIVE_WEBSITE/static/js/main.426020b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96336f28.css",
+    "static/js/main.426020b4.js"
+  ]
+}
