@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HIVE_WEBSITE/static/css/main.96336f28.css",
-    "main.js": "/HIVE_WEBSITE/static/js/main.426020b4.js",
+    "main.js": "/HIVE_WEBSITE/static/js/main.7fab9c79.js",
     "static/media/Devo_Promo.mp4": "/HIVE_WEBSITE/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
     "static/media/robot_frontview2.png": "/HIVE_WEBSITE/static/media/robot_frontview2.d4340d23afa0f82cc4bf.png",
     "static/media/robot_side_view.jpg": "/HIVE_WEBSITE/static/media/robot_side_view.224a040bc0c26c1af19f.jpg",
@@ -19,10 +19,10 @@
     "static/media/hiverbtcsLock-up - Color.svg": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
     "index.html": "/HIVE_WEBSITE/index.html",
     "main.96336f28.css.map": "/HIVE_WEBSITE/static/css/main.96336f28.css.map",
-    "main.426020b4.js.map": "/HIVE_WEBSITE/static/js/main.426020b4.js.map"
+    "main.7fab9c79.js.map": "/HIVE_WEBSITE/static/js/main.7fab9c79.js.map"
   },
   "entrypoints": [
     "static/css/main.96336f28.css",
-    "static/js/main.426020b4.js"
+    "static/js/main.7fab9c79.js"
   ]
 }
