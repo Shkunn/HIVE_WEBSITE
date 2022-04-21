@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/HIVE_WEBSITE/static/css/main.139b0caf.css",
-    "main.js": "/HIVE_WEBSITE/static/js/main.7fab9c79.js",
+    "main.css": "/HIVE_WEBSITE/static/css/main.8a8f87f6.css",
+    "main.js": "/HIVE_WEBSITE/static/js/main.99e9b09e.js",
     "static/media/Devo_Promo.mp4": "/HIVE_WEBSITE/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
-    "static/media/robot_frontview2.png": "/HIVE_WEBSITE/static/media/robot_frontview2.d4340d23afa0f82cc4bf.png",
+    "static/media/computer-vision.png": "/HIVE_WEBSITE/static/media/computer-vision.ac51369b13d8ebc48e8f.png",
     "static/media/robot_side_view.jpg": "/HIVE_WEBSITE/static/media/robot_side_view.224a040bc0c26c1af19f.jpg",
     "static/media/arriere_base.png": "/HIVE_WEBSITE/static/media/arriere_base.6a64de2b706db912b2c4.png",
     "static/media/Mockup.png": "/HIVE_WEBSITE/static/media/Mockup.927a3e784fd031fa4f56.png",
+    "static/media/Hivonaut_pic.jpg": "/HIVE_WEBSITE/static/media/Hivonaut_pic.08636c847a0bf7281fa0.jpg",
+    "static/media/mapping_calibration.png": "/HIVE_WEBSITE/static/media/mapping_calibration.1b3aa8fc68007d307325.png",
+    "static/media/robot_frontview2.png": "/HIVE_WEBSITE/static/media/robot_frontview2.47aaeddffce09ae7984b.png",
     "static/media/hiverbtcsLock-up - Color.png": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.4479c299d5dcfc891d67.png",
     "static/media/Gilroy-ExtraBold.otf": "/HIVE_WEBSITE/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/HIVE_WEBSITE/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
@@ -18,11 +21,11 @@
     "static/media/hiverbtcs_account-0.png": "/HIVE_WEBSITE/static/media/hiverbtcs_account-0.438e50226cac486a1089.png",
     "static/media/hiverbtcsLock-up - Color.svg": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
     "index.html": "/HIVE_WEBSITE/index.html",
-    "main.139b0caf.css.map": "/HIVE_WEBSITE/static/css/main.139b0caf.css.map",
-    "main.7fab9c79.js.map": "/HIVE_WEBSITE/static/js/main.7fab9c79.js.map"
+    "main.8a8f87f6.css.map": "/HIVE_WEBSITE/static/css/main.8a8f87f6.css.map",
+    "main.99e9b09e.js.map": "/HIVE_WEBSITE/static/js/main.99e9b09e.js.map"
   },
   "entrypoints": [
-    "static/css/main.139b0caf.css",
-    "static/js/main.7fab9c79.js"
+    "static/css/main.8a8f87f6.css",
+    "static/js/main.99e9b09e.js"
   ]
 }
