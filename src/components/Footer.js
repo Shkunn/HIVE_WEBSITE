@@ -20,7 +20,7 @@ function Footer() {
                     <div className="social-icons">
                         <Link
                             className='social-icon-link facebook'
-                            to='/'
+                            to='/HIVE_WEBSITE'
                             target='_blank'
                             aria-label='Facebook'
                         >
@@ -28,7 +28,7 @@ function Footer() {
                         </Link>
                         <Link
                             className='social-icon-link instagram'
-                            to='/'
+                            to='/HIVE_WEBSITE'
                             target='_blank'
                             aria-label='Instagram'
                         >
@@ -36,7 +36,7 @@ function Footer() {
                         </Link>
                         <Link
                             className='social-icon-link twitter'
-                            to='/'
+                            to='/HIVE_WEBSITE'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
@@ -48,14 +48,14 @@ function Footer() {
                 
                 <div className="right-footer">
                     <Link
-                        to='/demo'
+                        to='/HIVE_WEBSITE/demo'
                         className='footer-link'
                     >
                         En savoir plus
                     </Link>
 
                     <Link
-                        to='/'
+                        to='/HIVE_WEBSITE/'
                         className='footer-link'
                     >
                         Rejoindre l'équipe
