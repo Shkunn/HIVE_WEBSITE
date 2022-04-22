@@ -40,6 +40,10 @@
     height: 100%;
 }
 
+.computer-vision-img-teleguidance {
+    width: 100%;
+}
+
 .right--element-calibration {
     height: 100%;
     width: 50%;
@@ -294,6 +298,11 @@
         border-radius: 50px;
     }
 
+    .computer-vision-img-teleguidance {
+        width: 100%;
+        border-radius: 50px;
+    }
+
     .calibration--title {
         width: 100%;
         height: 40%;
@@ -389,17 +398,17 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .calibration-mapping-div {
-        height: 60vh;
+        height: 65vh;
         display: flex;
     }
 
     .left--element-calibration {
-        margin-top: 10%;
+        margin-top: 0%;
 
-        height: 30%;
-        width: 80%;
+        height: 20vh;
+        width: 100%;
 
         margin-right: auto;
         margin-left: auto;
@@ -419,11 +428,16 @@
         right: 0%;
     }
 
-    .right--element-calibration {
-        height: 50%;
-        width: 80%;
+    .computer-vision-img {
+        height: 150%;
+        width: 100%;
+    }
 
-        margin-top: 5%;
+    .right--element-calibration {
+        height: 40vh;
+        width: 100%;
+
+        margin-top: 0%;
 
         margin-left: auto;
         margin-right: auto;
@@ -431,13 +445,13 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+
     }
 
     .logo-calibration {
         width: 80px;
         height: 80px;
 
-        /* background-color: coral; */
         border-radius: 20px;
 
         position: relative;
@@ -449,12 +463,12 @@
     }
 
     .text-calibration {
-        width: 70%;
+        width: 80%;
         height: 40%;
 
         position: relative;
         left: 10%;
-        top: 5%;
+        top: 0%;
     }
 
     .calibration--title {
@@ -482,15 +496,13 @@
     .teleguidance-div {
         height: 60vh;
         display: flex;
-
-        margin-top: -20%;
     }
 
     .left--element-teleguidance {
-        height: 50%;
-        width: 80%;
+        height: 40vh;
+        width: 100%;
 
-        margin-top: -5%;
+        margin-top: 0%;
 
         margin-left: auto;
         margin-right: auto;
@@ -517,7 +529,7 @@
     }
 
     .text-teleguidance {
-        width: 70%;
+        width: 80%;
         height: 40%;
 
         position: relative;
@@ -547,13 +559,12 @@
 
 
     .right--element-teleguidance {
+        position: relative;
+
         margin-top: 0%;
 
-        position: relative;
-        top: -10px;
-
-        height: 30%;
-        width: 80%;
+        height: 20vh;
+        width: 100%;
 
         margin-right: auto;
         margin-left: auto;
@@ -565,7 +576,7 @@
 
     .img--teleguidance {
         height: 90%;
-        width: 60%;
+        width: 80%;
 
         border-radius: 40px;
 
@@ -577,7 +588,7 @@
 
 
     .computer-vision-div {
-        height: 70vh;
+        height: 60vh;
         display: flex;
 
         margin-top: 10%;

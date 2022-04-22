@@ -62,7 +62,7 @@ function TechDetail() {
                         initial={{ scale: 0.9 }}
                         whileInView={{ scale: 1 }}
                     >
-                        <img src={hivonaut_pic} alt="hivonaut_pic" className='computer-vision-img' />
+                        <img src={hivonaut_pic} alt="hivonaut_pic" className='computer-vision-img-teleguidance' />
                     </motion.div>
                 </div>
             </div>
