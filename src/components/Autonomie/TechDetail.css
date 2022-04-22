@@ -377,10 +377,10 @@
     .calibration--title-computer {
         width: 100%;
         height: 40%;
-    
+
         font-size: 32px;
         font-family: 'Gilroy-ExtraBold';
-    
+
         display: flex;
         align-items: center;
 
@@ -391,41 +391,22 @@
 
 @media screen and (max-width: 400px) {
     .calibration-mapping-div {
-        height: 70vh;
+        height: 60vh;
         display: flex;
     }
 
-    .teleguidance-div {
-        height: 70vh;
-        display: flex;
-    }
+    .left--element-calibration {
+        margin-top: 10%;
 
-    .computer-vision-div {
-        height: 70vh;
-        display: flex;
-    }
+        height: 30%;
+        width: 80%;
 
-    .left--element-teleguidance {
-        height: 100%;
-        width: 50%;
-
-        margin-top: -10%;
+        margin-right: auto;
+        margin-left: auto;
 
         display: flex;
+        align-items: center;
         justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .right--element-calibration {
-        height: 100%;
-        width: 50%;
-
-        margin-top: -10%;
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .img--calibration {
@@ -435,61 +416,21 @@
         border-radius: 40px;
 
         position: relative;
-        right: 5%;
+        right: 0%;
     }
 
-    .img--teleguidance {
-        height: 90%;
+    .right--element-calibration {
+        height: 50%;
         width: 80%;
 
-        border-radius: 40px;
+        margin-top: 5%;
 
-        position: relative;
-        left: 5%;
-    }
+        margin-left: auto;
+        margin-right: auto;
 
-    .logo-teleguidance {
-        width: 80px;
-        height: 80px;
-
-        border-radius: 20px;
-
-        position: relative;
-        right: 0%;
-        left: 20%;
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-
-    .text-teleguidance {
-        width: 70%;
-        height: 40%;
-
-        position: relative;
-        right: 0%;
-        left: 20%;
-        top: 5%;
-    }
-
-    .teleguidance--title {
-        width: 100%;
-        height: 40%;
-
-        font-size: 16px;
-        font-family: 'Gilroy-ExtraBold';
-
-        display: flex;
-        align-items: center;
-
-    }
-
-    .teleguidance--parag {
-        width: 100%;
-        height: 60%;
-
-        font-size: 12px;
-        font-family: 'Gilroy-Light'
+        flex-direction: column;
     }
 
     .logo-calibration {
@@ -528,6 +469,132 @@
     }
 
     .calibration--parag {
+        width: 100%;
+        height: 60%;
+
+        font-size: 12px;
+        font-family: 'Gilroy-Light';
+    }
+
+
+
+
+    .teleguidance-div {
+        height: 60vh;
+        display: flex;
+
+        margin-top: -20%;
+    }
+
+    .left--element-teleguidance {
+        height: 50%;
+        width: 80%;
+
+        margin-top: -5%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo-teleguidance {
+        width: 80px;
+        height: 80px;
+
+        /* background-color: coral; */
+        border-radius: 20px;
+
+        position: relative;
+        left: 10%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text-teleguidance {
+        width: 70%;
+        height: 40%;
+
+        position: relative;
+        left: 10%;
+        top: 5%;
+    }
+
+    .teleguidance--title {
+        width: 100%;
+        height: 40%;
+
+        font-size: 16px;
+        font-family: 'Gilroy-ExtraBold';
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .teleguidance--parag {
+        width: 100%;
+        height: 60%;
+
+        font-size: 12px;
+        font-family: 'Gilroy-Light';
+    }
+
+
+    .right--element-teleguidance {
+        margin-top: 0%;
+
+        position: relative;
+        top: -10px;
+
+        height: 30%;
+        width: 80%;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img--teleguidance {
+        height: 90%;
+        width: 60%;
+
+        border-radius: 40px;
+
+        position: relative;
+        left: 0%;
+    }
+
+
+
+
+    .computer-vision-div {
+        height: 70vh;
+        display: flex;
+
+        margin-top: 10%;
+    }
+
+    .calibration--title-computer {
+        width: 100%;
+        height: 40%;
+
+        font-size: 16px;
+        font-family: 'Gilroy-ExtraBold';
+
+        display: flex;
+        align-items: center;
+    }
+
+    .calibration--parag-computer {
         width: 100%;
         height: 60%;
 
