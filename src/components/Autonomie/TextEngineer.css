@@ -68,7 +68,9 @@
 
   .para--div {
     /* height: 10%; */
-    width: 30%;
+    width: 40%;
+
+    margin-top: 3%;
   
     display: flex;
     align-items: center;

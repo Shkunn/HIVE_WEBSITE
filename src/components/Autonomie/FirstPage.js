@@ -3,6 +3,7 @@ import './FirstPage.css'
 import robot from '../../images/arriere_base.png';
 import { IoIosArrowDown } from 'react-icons/io';
 import { motion } from "framer-motion"
+import { Link } from "react-scroll"
 
 function FirstPage() {
     return (
@@ -17,7 +18,7 @@ function FirstPage() {
 
                     <div className="text--para">
                         Découvrez ce qu'il se cache derrière
-                        <span style={{fontFamily: 'Gilroy-ExtraBold'}}>l'autonomie de nos robots</span>
+                        <span style={{ fontFamily: 'Gilroy-ExtraBold' }}>l'autonomie de nos robots</span>
                     </div>
 
                 </div>
@@ -35,7 +36,9 @@ function FirstPage() {
                         }
                     }}
                 >
-                    <IoIosArrowDown className='iologo' />
+                    <IoIosArrowDown
+                        className='iologo'
+                    />
                 </motion.div>
 
             </div>

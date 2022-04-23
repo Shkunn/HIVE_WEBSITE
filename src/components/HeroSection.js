@@ -26,6 +26,7 @@ function HeroSection() {
                     style={{
                         fontFamily: 'Gilroy-Light'
                     }}
+                    smooth={true}
                 >
                     En apprendre plus
                 </Link>

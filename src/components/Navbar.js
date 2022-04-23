@@ -43,6 +43,16 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
             <li className='nav-item'>
+              <Link
+                to='/HIVE_WEBSITE/'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Accueil
+              </Link>
+            </li>
+
+            <li className='nav-item'>
               <Link to='/HIVE_WEBSITE/autonomie'
                 className='nav-links'
                 onClick={closeMobileMenu}>

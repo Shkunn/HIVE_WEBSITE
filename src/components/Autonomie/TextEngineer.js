@@ -1,5 +1,4 @@
 import './TextEngineer.css'
-import { motion } from "framer-motion"
 import { useEffect, useState } from 'react';
 
 function TextEngineer() {
@@ -37,6 +36,7 @@ function TextEngineer() {
     return (
         <div
             className="textengineer-div"
+            id="textengineer-div"
         >
             <div
                 className="title--div"

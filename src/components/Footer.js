@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './Button'
 import './Footer.css'
 import hiverbtcsLock from '../images/hiverbtcsLock-up - Color.png';
 
@@ -18,34 +17,25 @@ function Footer() {
                     </div>
 
                     <div className="social-icons">
-                        <Link
-                            className='social-icon-link facebook'
-                            to='/HIVE_WEBSITE'
-                            target='_blank'
-                            aria-label='Facebook'
-                        >
-                            <i className='fab fa-facebook-f' />
-                        </Link>
-                        <Link
+                        <button
                             className='social-icon-link instagram'
-                            to='/HIVE_WEBSITE'
-                            target='_blank'
+                            onClick={() => window.open("https://www.instagram.com/devo_group/")}
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram' />
-                        </Link>
-                        <Link
-                            className='social-icon-link twitter'
-                            to='/HIVE_WEBSITE'
-                            target='_blank'
+                        </button>
+
+                        <button
+                            className='social-icon-link linkedin'
+                            onClick={() => window.open("https://www.linkedin.com/company/devo-group/")}
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin' />
-                        </Link>
+                        </button>
                     </div>
 
                 </div>
-                
+
                 <div className="right-footer">
                     <Link
                         to='/HIVE_WEBSITE/demo'
