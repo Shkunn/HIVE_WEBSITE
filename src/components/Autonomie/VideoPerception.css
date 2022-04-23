@@ -18,18 +18,18 @@
     align-items: center;
     justify-content: center;
 
-    font-family: 'Gilroy-Light'
+    font-family: 'Gilroy-Light';
 }
 
 .title--presentation {
     height: 10%;
-    width: 50%;
+    width: 70%;
 
     color: white;
     font-size: 44px;
 
     position: relative;
-    bottom: 30px;
+    bottom: 0px;
 
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 
     text-align: center;
 
-    font-family: 'Gilroy-ExtraBold'
+    font-family: 'Gilroy-ExtraBold';
 }
 
 .video--perception {
@@ -223,30 +223,30 @@
     .description--video--title {
         height: 30%;
         width: 100%;
-    
+
         font-size: 14px;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
         text-align: center;
-    
+
         font-family: 'Gilroy-ExtraBold'
     }
 
     .description--video--paragraphe {
         height: 50%;
         width: 80%;
-    
+
         text-align: center;
         font-size: 12px;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-    
+
         font-family: 'Gilroy-Light'
     }
 }
