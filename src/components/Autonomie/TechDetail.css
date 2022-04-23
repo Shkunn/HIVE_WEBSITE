@@ -475,7 +475,6 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-
     }
 
     .logo-calibration {
@@ -558,12 +557,12 @@
     }
 
     .text-teleguidance {
-        width: 80%;
+        width: 90%;
         height: 40%;
 
         position: relative;
         left: 10%;
-        top: 5%;
+        top: 0%;
     }
 
     .teleguidance--title {
