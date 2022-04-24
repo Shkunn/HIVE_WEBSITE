@@ -14,7 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4rem;
+  height: 100%;
+  width: 100%;
 }
 
 .navbar-hiverbtcsLock {
@@ -23,17 +24,18 @@
 }
 
 .menu-icon {
-  display: none;
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  left: 30px;
 }
 
 .logo--navbar {
   height: 100%;
   padding: 2px;
-}
-
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .nav-menu {
@@ -69,6 +71,7 @@
 
 .fa-bars {
   color: black;
+  font-size: 1.2rem;
 }
 
 .nav-links-mobile {
@@ -79,10 +82,6 @@
   .logo--navbar {
     height: 100%;
     padding: 8px;
-  }
-
-  .NavbarItems {
-    position: relative;
   }
 
   .nav-menu {
@@ -121,14 +120,7 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
-  .menu-icon {
+  /* .menu-icon {
     display: block;
     position: absolute;
     left: 50px;
@@ -136,12 +128,12 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-  }
+  } */
 
-  .fa-times {
+  /* .fa-times {
     color: black;
     font-size: 2rem;
-  }
+  } */
 
   .nav-links-mobile {
     display: block;

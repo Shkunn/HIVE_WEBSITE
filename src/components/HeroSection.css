@@ -136,6 +136,20 @@
 
 @media screen and (max-width: 560px) {
 
+    .hero-title {
+        width: 90%;
+        height: 30vh;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
     .hero-title>h1 {
         font-size: 30px;
     }
@@ -149,13 +163,13 @@
 
     .hero-btn {
         width: 100vw;
-        height: 10rem;
+        height: 30%;
         margin-top: 0%;
         margin-right: auto;
         margin-left: auto;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
 
