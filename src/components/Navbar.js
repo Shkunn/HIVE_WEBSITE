@@ -36,9 +36,11 @@ function Navbar() {
             <img src={hiverbtcsLock} alt="Logo" className='logo--navbar' />
           </Link>
 
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+          {!button &&
+            <div className='menu-icon' onClick={handleClick}>
+              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            </div>
+          }
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
