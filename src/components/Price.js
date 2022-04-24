@@ -3,7 +3,6 @@ import logo_laDef from '../images/Inno_la_defense.png';
 import logo_moovje from '../images/Moovje.png';
 import logo_cnam from '../images/cnam.png';
 
-
 function Price() {
     return (
         <div className="price-global-div">
