@@ -6,7 +6,7 @@ import BackVideo from "../videos/Devo_Promo.mp4"
 function VideoFeed() {
     return (
         <div className="video-global-div">
-            <video autoPlay loop muted width="640" height="480">
+            <video className='video' autoPlay loop muted playsinline>
                 <source src={BackVideo} type='video/mp4' />
             </video>
         </div >
