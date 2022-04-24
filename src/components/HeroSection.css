@@ -41,6 +41,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    z-index: 10;
 }
 
 .image-robot {
@@ -52,6 +54,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    z-index: 0;
 }
 
 .robot_frontview-hero {
@@ -180,5 +184,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    .image-robot {
+        width: 100vw;
+        height: 30%;
+        bottom: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        opacity: 0.9;
+    }
+
+    .btn--underline {
+        color: #FF4D00;
+        border-bottom: 2px solid #FF4D00;
+        transition: all 0.3s ease-out;
     }
 }

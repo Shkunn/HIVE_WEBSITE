@@ -24,7 +24,7 @@ function HeroSection() {
                     to='workingExplaining'
                     className='btn btn--underline btn--large--underline'
                     style={{
-                        fontFamily: 'Gilroy-Light'
+                        fontFamily: 'Gilroy-Light',
                     }}
                     smooth={true}
                 >
