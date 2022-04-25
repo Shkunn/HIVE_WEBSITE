@@ -13,7 +13,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path='/' exact element={<Home />} />
+        <Route path='/HIVE_WEBSITE/' exact element={<Home />} />
         <Route path='/autonomie' element={<Autonomie />} />
         <Route path='/application' element={<Application />} />
         <Route path='/demo' element={<Demo />} />
