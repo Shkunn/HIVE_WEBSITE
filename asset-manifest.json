@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/HIVE_WEBSITE/static/css/main.c6f262bf.css",
-    "main.js": "/HIVE_WEBSITE/static/js/main.2b7155a5.js",
+    "main.css": "/HIVE_WEBSITE/static/css/main.5db19d85.css",
+    "main.js": "/HIVE_WEBSITE/static/js/main.49a6af6c.js",
     "static/media/Devo_Promo.mp4": "/HIVE_WEBSITE/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
+    "static/media/MK3-white-paysage.jpg": "/HIVE_WEBSITE/static/media/MK3-white-paysage.a098f229305de31e82e2.jpg",
     "static/media/computer-vision.png": "/HIVE_WEBSITE/static/media/computer-vision.ac51369b13d8ebc48e8f.png",
     "static/media/arriere_base.png": "/HIVE_WEBSITE/static/media/arriere_base.6a64de2b706db912b2c4.png",
     "static/media/Hivonaut_pic.jpg": "/HIVE_WEBSITE/static/media/Hivonaut_pic.08636c847a0bf7281fa0.jpg",
@@ -19,11 +20,11 @@
     "static/media/hiverbtcs_account-0.png": "/HIVE_WEBSITE/static/media/hiverbtcs_account-0.438e50226cac486a1089.png",
     "static/media/hiverbtcsLock-up - Color.svg": "/HIVE_WEBSITE/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
     "index.html": "/HIVE_WEBSITE/index.html",
-    "main.c6f262bf.css.map": "/HIVE_WEBSITE/static/css/main.c6f262bf.css.map",
-    "main.2b7155a5.js.map": "/HIVE_WEBSITE/static/js/main.2b7155a5.js.map"
+    "main.5db19d85.css.map": "/HIVE_WEBSITE/static/css/main.5db19d85.css.map",
+    "main.49a6af6c.js.map": "/HIVE_WEBSITE/static/js/main.49a6af6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f262bf.css",
-    "static/js/main.2b7155a5.js"
+    "static/css/main.5db19d85.css",
+    "static/js/main.49a6af6c.js"
   ]
 }
