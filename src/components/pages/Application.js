@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Application.css'
-import mockup from '../../images/Mockup.png'
 
 function Application() {
 

@@ -1,5 +1,4 @@
 import './Carrousel.css';
-import robot from '../../images/arriere_base.png';
 import Slider from '../Slider/Slider';
 
 

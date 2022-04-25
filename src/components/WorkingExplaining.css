@@ -93,7 +93,7 @@
     margin-bottom: 10%;
     position: relative;
     height: 25vw;
-    width: 20vw;
+    width: 30vw;
 
     display: flex;
     flex-direction: column;
@@ -193,9 +193,32 @@
 
 @media screen and (max-width: 580px) {
 
+  .inner-div {
+    position: relative;
+    height: 70vh;
+    top: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .steps {
+    margin-top: 0%;
+    position: relative;
+    height: 20vh;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 
   .title {
-    margin-top: 2%;
+    margin-top: 0%;
     position: absolute;
     height: 16vh;
     width: 100%;
@@ -210,21 +233,39 @@
 
   .image--steps {
     position: relative;
-    height: 7vh;
-    width: 7vh;
-    top: 25%;
+    height: 100%;
+    width: 30%;
+    top: 0%;
 
-    margin-bottom: 12%;
+    margin-bottom: 0%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image--steps--img {
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .title--steps {
     font-size: 15px;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 30%;
 
-    margin-bottom: 6%;
+    height: 100%;
+
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+    position: relative;
+    top: 0px;
 
     display: flex;
     align-items: center;
@@ -235,8 +276,11 @@
 
   .paragraphe--steps {
     color: grey;
-    font-size: 15px;
-    top: 15%;
+    font-size: 12px;
+    top: 0%;
+
+    height: 100%;
+    width: 30%;
 
     display: flex;
     align-items: center;
@@ -244,5 +288,4 @@
 
     font-family: 'Gilroy-Light';
   }
-
 }

@@ -3,7 +3,6 @@ import './FirstPage.css'
 import robot from '../../images/arriere_base.png';
 import { IoIosArrowDown } from 'react-icons/io';
 import { motion } from "framer-motion"
-import { Link } from "react-scroll"
 
 function FirstPage() {
     return (

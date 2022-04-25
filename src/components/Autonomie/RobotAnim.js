@@ -1,6 +1,5 @@
 import './RobotAnim.css';
 import robot from '../../images/arriere_base.png';
-import { motion, useTransform, useViewportScroll } from "framer-motion"
 import { useEffect, useState } from 'react';
 
 
