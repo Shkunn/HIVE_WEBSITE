@@ -38,14 +38,14 @@ function Footer() {
 
                 <div className="right-footer">
                     <Link
-                        to='/demo'
+                        to='/HIVE_WEBSITE/demo'
                         className='footer-link'
                     >
                         En savoir plus
                     </Link>
 
                     <Link
-                        to='/'
+                        to='/HIVE_WEBSITE/'
                         className='footer-link'
                     >
                         Rejoindre l'équipe
