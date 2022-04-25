@@ -1,4 +1,8 @@
 import './Advantage.css'
+import robot_frontview from '../../images/MK3-white-paysage.jpg';
+import MK3_allee from '../../images/MK3-allee.jpg';
+import MK3_goldencar from '../../images/MK3-white.jpg';
+import MK3_garden from '../../images/MK3-garden.jpg';
 
 function Advantage() {
     return (
@@ -15,6 +19,10 @@ function Advantage() {
             <div className="advantage-one-div">
 
                 <div className="advantage-one-img">
+
+                    <div className="img-one-div-advantage">
+                        <img src={robot_frontview} alt="robot_frontview" className='image-classname-advantage' />
+                    </div>
 
                 </div>
 
@@ -63,6 +71,10 @@ function Advantage() {
 
                 <div className="advantage-two-img">
 
+                    <div className="img-two-div-advantage">
+                        <img src={MK3_allee} alt="robot_frontview" className='image-classname-advantage' />
+                    </div>
+
                 </div>
 
             </div>
@@ -70,7 +82,9 @@ function Advantage() {
             <div className="advantage-one-div">
 
                 <div className="advantage-one-img">
-
+                    <div className="img-one-div-advantage">
+                        <img src={MK3_goldencar} alt="robot_frontview" className='image-classname-advantage' />
+                    </div>
                 </div>
 
                 <div className="advantage-one-text-div">
@@ -117,7 +131,9 @@ function Advantage() {
                 </div>
 
                 <div className="advantage-two-img">
-
+                    <div className="img-two-div-advantage">
+                        <img src={MK3_garden} alt="robot_frontview" className='image-classname-advantage' />
+                    </div>
                 </div>
 
             </div>

@@ -27,7 +27,7 @@ function FirstPage() {
                 <motion.div
                     className='iologo-position'
                     animate={{
-                        y: [0, 10, 0],
+                        y: [0, 20, 0],
                         transition: {
                             duration: 1,
                             times: [0, 0.5, 1],
