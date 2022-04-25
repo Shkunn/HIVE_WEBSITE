@@ -13,7 +13,7 @@ const dataSlider = [
   {
     id: 2,
     title: "PERCEPTION",
-    subTitle: "Koda ne voit pas seulement les objects, ils les identifient. Il est capable de categoriser les piétons des voitures en temps réel."
+    subTitle: "JUMBY ne voit pas seulement les objects, ils les identifient. Il est capable de categoriser les piétons des voitures en temps réel."
   },
   {
     id: 3,

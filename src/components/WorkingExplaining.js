@@ -24,7 +24,7 @@ function WorkingExplaining() {
                     </div>
 
                     <div className="paragraphe--steps">
-                        KODA roule jusqu'au restaurant pour récupérer la commande
+                        JUMBY roule jusqu'au restaurant pour récupérer la commande
                     </div>
 
                 </div>
@@ -37,11 +37,11 @@ function WorkingExplaining() {
                     </div>
 
                     <div className="title--steps">
-                        Le restaurateur remplit KODA
+                        Le restaurateur remplit JUMBY
                     </div>
 
                     <div className="paragraphe--steps">
-                        Pas de perte de temps, dès que le plat est prêt le restaurateur remplit KODA
+                        Pas de perte de temps, dès que le plat est prêt le restaurateur remplit JUMBY
                     </div>
                 </div>
 
@@ -53,11 +53,11 @@ function WorkingExplaining() {
                     </div>
 
                     <div className="title--steps">
-                        KODA est prêt pour livrer
+                        JUMBY est prêt pour livrer
                     </div>
 
                     <div className="paragraphe--steps">
-                        KODA roule jusqu'au client en 15 minutes ou moins !
+                        JUMBY roule jusqu'au client en 15 minutes ou moins !
                     </div>
                 </div>
 

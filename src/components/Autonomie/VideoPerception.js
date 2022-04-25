@@ -13,7 +13,7 @@ function VideoPerception() {
             </div>
 
             <div className="title--presentation">
-                Totalement autonome, <span style={{fontFamily: 'Gilroy-ExtraBold'}}>même dans des environnements complexes</span>
+                Totalement autonome, <span style={{ fontFamily: 'Gilroy-ExtraBold' }}>même dans des environnements complexes</span>
             </div>
 
             <div className="video--perception">
@@ -27,7 +27,7 @@ function VideoPerception() {
                     NAVIGATION TOTALEMENT AUTONOME
                 </div>
                 <div className="description--video--paragraphe">
-                    KODA se déplace sur l'Esplanade de la Défense aux heures de pointe.
+                    JUMBY se déplace sur l'Esplanade de la Défense aux heures de pointe.
                 </div>
             </div>
 

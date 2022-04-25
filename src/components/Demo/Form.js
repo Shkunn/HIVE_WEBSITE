@@ -7,7 +7,7 @@ function Form() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        const template_id = process.env.REACT_APP_TEMPLATE_ID 
+        const template_id = process.env.REACT_APP_TEMPLATE_ID
 
         emailjs.sendForm("hive_robotics_id", template_id, e.target, 'zWaaqMTgj71lrDzq6')
             .then((result) => {
@@ -15,7 +15,7 @@ function Form() {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset()
+        e.target.reset()
     };
 
     return (
@@ -24,7 +24,7 @@ function Form() {
                 <div className="title--form-container">
                     <div className="title-container">
                         <div className="title1" style={{ fontFamily: 'Gilroy-ExtraBold' }}>
-                            Prêt à rencontrer<span style={{ color: '#FF4D00', fontFamily: 'Gilroy-ExtraBold' }}> KODA</span> ?
+                            Prêt à rencontrer<span style={{ color: '#FF4D00', fontFamily: 'Gilroy-ExtraBold' }}> JUMBY</span> ?
                         </div>
                         <span style={{ marginTop: 12, fontFamily: 'Gilroy-ExtraBold' }}>Enregistre ton restaurant maintenant !</span>
                     </div>

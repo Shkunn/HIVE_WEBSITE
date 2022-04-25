@@ -32,7 +32,7 @@ function Navbar() {
 
         <div className='navbar-container'>
 
-          <Link to='/HIVE_WEBSITE/' className='navbar-hiverbtcsLock' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-hiverbtcsLock' onClick={closeMobileMenu}>
             <img src={hiverbtcsLock} alt="Logo" className='logo--navbar' />
           </Link>
 
@@ -46,7 +46,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/HIVE_WEBSITE/'
+                to='/'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -55,7 +55,7 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <Link to='/HIVE_WEBSITE/autonomie'
+              <Link to='/autonomie'
                 className='nav-links'
                 onClick={closeMobileMenu}>
                 Notre Solution
@@ -64,7 +64,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/HIVE_WEBSITE/application'
+                to='/application'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -74,7 +74,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/HIVE_WEBSITE/demo'
+                to='/demo'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
