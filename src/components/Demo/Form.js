@@ -26,7 +26,7 @@ function Form() {
                         <div className="title1" style={{ fontFamily: 'Gilroy-ExtraBold' }}>
                             Prêt à rencontrer<span style={{ color: '#FF4D00', fontFamily: 'Gilroy-ExtraBold' }}> JUMBY</span> ?
                         </div>
-                        <span style={{ marginTop: 12, fontFamily: 'Gilroy-ExtraBold' }}>Enregistre ton restaurant maintenant !</span>
+                        <span style={{ marginTop: 12, fontFamily: 'Gilroy-ExtraBold', color: 'white' }}>Enregistre ton restaurant maintenant !</span>
                     </div>
                 </div>
 

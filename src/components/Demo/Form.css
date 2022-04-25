@@ -4,7 +4,9 @@
 
     display: flex;
 
-    background-color: #EFF2EF;
+    /* background-color: #EFF2EF; */
+    background-image: url("../../images/MK3-white-paysage.jpg");
+    background-size: cover;
 }
 
 .leftside--form-container {
@@ -29,6 +31,10 @@
     flex-direction: column;
     justify-content: center;
     word-spacing: 4px;
+}
+
+.title1 {
+    color: white;
 }
 
 .form-div--form-container {
