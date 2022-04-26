@@ -5,8 +5,13 @@ import Home from './components/pages/Home';
 import Autonomie from './components/pages/Autonomie';
 import Application from "./components/pages/Application";
 import Demo from './components/pages/Demo';
+import ReactGA4 from "react-ga4";
 
 function App() {
+
+  ReactGA4.send({ hitType: "pageview", page: window.location.pathname });
+
+
   return (
     <Router>
 
