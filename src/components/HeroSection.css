@@ -31,6 +31,9 @@
     margin-top: 20px;
     font-size: 28px;
     font-family: 'Gilroy-Light';
+
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-btn {

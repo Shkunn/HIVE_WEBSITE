@@ -9,7 +9,11 @@ function HeroSection() {
         <div className="hero-container">
             <div className="hero-title">
                 <h1>Découvrez une livraison <span style={{ color: '#FF4D00' }}>différentes</span> des autres !</h1>
-                <p style={{ fontWeight: '500', color: '#FF4D00', opacity: 0.8 }}>Qu'est ce que vous attendez ?</p>
+                <p
+                    style={{ fontFamily: 'Gilroy-Light', color: '#FF4D00', opacity: 0.8 }}
+                >
+                    Qu'est ce que vous attendez ? <span>Commandez avec Jumby !</span>
+                </p>
             </div>
 
             <div className="hero-btn">
