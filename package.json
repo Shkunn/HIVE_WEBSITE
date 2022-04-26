@@ -1,6 +1,6 @@
 {
   "name": "hive-website",
-  "homepage": "https://www.devogroup.fr",
+  "homepage": "https://www.hiverobotics.fr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
