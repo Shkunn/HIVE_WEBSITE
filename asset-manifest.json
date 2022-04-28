@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bccc267.css",
-    "main.js": "/static/js/main.a28e3e26.js",
+    "main.css": "/static/css/main.67d3fe5c.css",
+    "main.js": "/static/js/main.329441c0.js",
     "static/media/Devo_Promo.mp4": "/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
     "static/media/MK3-allee.jpg": "/static/media/MK3-allee.15738e347f91f0bd1956.jpg",
     "static/media/MK3-garden.jpg": "/static/media/MK3-garden.6564c8222a6e0981c70e.jpg",
@@ -11,9 +11,13 @@
     "static/media/hiverbtcs_3drender_3-4_R.png": "/static/media/hiverbtcs_3drender_3-4_R.cb865a2f06f57aec1eec.png",
     "static/media/MK3-white.jpg": "/static/media/MK3-white.735df82ef2ba694a2ad6.jpg",
     "static/media/computer-vision.png": "/static/media/computer-vision.ac51369b13d8ebc48e8f.png",
+    "static/media/img3.png": "/static/media/img3.ac51369b13d8ebc48e8f.png",
+    "static/media/img1.png": "/static/media/img1.e5f58b9d0928894fcb7a.png",
     "static/media/Hivonaut_pic.jpg": "/static/media/Hivonaut_pic.08636c847a0bf7281fa0.jpg",
+    "static/media/img2.png": "/static/media/img2.63c969cbf124ec0f6b97.png",
     "static/media/mapping_calibration.png": "/static/media/mapping_calibration.1b3aa8fc68007d307325.png",
     "static/media/hiverbtcsLock-up - Color.png": "/static/media/hiverbtcsLock-up - Color.4479c299d5dcfc891d67.png",
+    "static/media/img4.png": "/static/media/img4.4ee0897a14b44d2b2b67.png",
     "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/hiverbtcs_calibration_w.png": "/static/media/hiverbtcs_calibration_w.cc029ceaa0eedc575abc.png",
@@ -24,11 +28,11 @@
     "static/media/hiverbtcs_account-0.png": "/static/media/hiverbtcs_account-0.438e50226cac486a1089.png",
     "static/media/hiverbtcsLock-up - Color.svg": "/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
     "index.html": "/index.html",
-    "main.4bccc267.css.map": "/static/css/main.4bccc267.css.map",
-    "main.a28e3e26.js.map": "/static/js/main.a28e3e26.js.map"
+    "main.67d3fe5c.css.map": "/static/css/main.67d3fe5c.css.map",
+    "main.329441c0.js.map": "/static/js/main.329441c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bccc267.css",
-    "static/js/main.a28e3e26.js"
+    "static/css/main.67d3fe5c.css",
+    "static/js/main.329441c0.js"
   ]
 }
