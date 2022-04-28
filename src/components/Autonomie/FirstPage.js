@@ -1,6 +1,7 @@
 import '../../App.css'
 import './FirstPage.css'
-import robot from '../../images/arriere_base.png';
+// import robot from '../../images/arriere_base.png';
+import robot from '../../images/hiverbtcs_jumby_3drender_front-zoomed.png';
 import { IoIosArrowDown } from 'react-icons/io';
 import { motion } from "framer-motion"
 

@@ -2,7 +2,8 @@ import '../App.css'
 import './HeroSection.css'
 import { Button } from './Button';
 import { Link } from "react-scroll"
-import robot_frontview from '../images/robot_frontview2.png';
+// import robot_frontview from '../images/robot_frontview2.png';
+import robot_frontview from '../images/hiverbtcs_3drender_3-4_0002.png';
 
 function HeroSection() {
     return (

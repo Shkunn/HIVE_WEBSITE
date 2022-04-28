@@ -1,5 +1,8 @@
 import './RobotAnim.css';
-import robot from '../../images/arriere_base.png';
+// import robot from '../../images/arriere_base.png';
+import robot from '../../images/hiverbtcs_jumby_3drender_front-zoomed.png';
+import robot_3d from '../../images/hiverbtcs_3drender_3-4_R.png'
+
 import { useEffect, useState } from 'react';
 
 
@@ -89,7 +92,7 @@ function RobotAnim() {
                 style={{ opacity: scrollOpacity }}
             >
 
-                <img src={robot} alt='' className='robot--image' />
+                <img src={robot_3d} alt='' className='robot--image' />
 
                 <div className="explain--text">
 
