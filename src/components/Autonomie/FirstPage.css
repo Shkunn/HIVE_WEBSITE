@@ -151,5 +151,13 @@
 
         font-family: 'Gilroy-ExtraBold'
     }
+
+    .robot {
+        width: 150%;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+    }
+    
     
 }
