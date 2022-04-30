@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-.computer-vision-img {
+/* .computer-vision-img {
     height: 100%;
 }
 
@@ -44,7 +44,7 @@
     height: 100%;
     position: relative;
 
-}
+} */
 
 .right--element-calibration {
     height: 100%;
@@ -305,9 +305,11 @@
 
     .computer-vision-img-teleguidance {
         width: 100%;
-        /* border-radius: 50px; */
+        border-radius: 50px;
         height: min-content;
         position: relative;
+
+        object-fit: cover;
     }
 
     .calibration--title {
