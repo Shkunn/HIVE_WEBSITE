@@ -109,7 +109,7 @@ function RobotAnim() {
                 style={{ opacity: scrollOpacity }}
             >
 
-                <canvas
+                {/* <canvas
                     ref={canvas}
                     width={300}
                     height={256 + 80}
@@ -118,9 +118,9 @@ function RobotAnim() {
                         // height: '100%',
                         // width: '100%'
                     }}
-                >
-                    <img src={robot_3d} alt='' className='robot--image' />
-                </canvas>
+                > */}
+                <img src={robot_3d} alt='' className='robot--image' />
+                {/* </canvas> */}
 
 
                 <div className="explain--text">
