@@ -36,15 +36,14 @@
     align-items: center;
 }
 
-/* .computer-vision-img {
+.computer-vision-img {
     height: 100%;
 }
 
 .computer-vision-img-teleguidance {
     height: 100%;
     position: relative;
-
-} */
+}
 
 .right--element-calibration {
     height: 100%;
@@ -146,18 +145,17 @@
 }
 
 .img--teleguidance {
-    /* height: 90%;
-    width: 60%; */
-    height: 75%;
+    height: 60%;
     width: 60%;
 
     border-radius: 40px;
-
+    
     overflow: hidden;
+
+    display: flex;
     position: relative;
     left: 5%;
 
-    display: flex;
     justify-content: center;
 }
 
@@ -307,9 +305,6 @@
         width: 100%;
         border-radius: 50px;
         height: min-content;
-        position: relative;
-
-        object-fit: cover;
     }
 
     .calibration--title {
