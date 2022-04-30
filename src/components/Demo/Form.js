@@ -1,6 +1,7 @@
 import './Form.css'
 // import robot_frontview from '../../images/robot_side_view.jpg';
 import emailjs from "emailjs-com"
+import swal from 'sweetalert';
 
 function Form() {
 
@@ -12,6 +13,7 @@ function Form() {
         emailjs.sendForm("hive_robotics_id", template_id, e.target, 'zWaaqMTgj71lrDzq6')
             .then((result) => {
                 console.log(result.text);
+                swal("Merci !", "Votre mail a été envoyé !", "success")
             }, (error) => {
                 console.log(error.text);
             });

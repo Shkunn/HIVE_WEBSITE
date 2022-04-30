@@ -120,21 +120,6 @@
     border-radius: 0;
   }
 
-  /* .menu-icon {
-    display: block;
-    position: absolute;
-    left: 50px;
-    top: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  } */
-
-  /* .fa-times {
-    color: black;
-    font-size: 2rem;
-  } */
-
   .nav-links-mobile {
     display: block;
     text-align: center;

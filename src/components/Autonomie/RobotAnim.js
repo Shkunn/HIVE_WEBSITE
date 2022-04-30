@@ -1,9 +1,7 @@
 import './RobotAnim.css';
-// import robot from '../../images/arriere_base.png';
-import robot from '../../images/hiverbtcs_jumby_3drender_front-zoomed.png';
 import robot_3d from '../../images/hiverbtcs_3drender_3-4_R.png'
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 
 function RobotAnim() {
@@ -83,6 +81,25 @@ function RobotAnim() {
         return () => window.removeEventListener("scroll", OpacityHandler);
     });
 
+    const [image, setImage] = useState(null)
+
+    const canvas = useRef(null)
+
+    useEffect(() => {
+        const catImage = new Image();
+        catImage.src = { robot_3d }
+        catImage.onload = () => setImage(catImage)
+    }, [])
+
+    useEffect(() => {
+        if (image && canvas) {
+            const ctx = canvas.current.getContext("2d")
+            ctx.fillStyle = "black"
+            ctx.fillRect(0, 0, 400, 256 + 82)
+            ctx.drawImage(image, (400 - 256) / 2, 40)
+        }
+    }, [image, canvas])
+
 
     return (
         <div className="robotanim-global-div" >
@@ -92,7 +109,19 @@ function RobotAnim() {
                 style={{ opacity: scrollOpacity }}
             >
 
-                <img src={robot_3d} alt='' className='robot--image' />
+                <canvas
+                    ref={canvas}
+                    width={300}
+                    height={256 + 80}
+                    style={{
+                        backgroundColor: 'red',
+                        // height: '100%',
+                        // width: '100%'
+                    }}
+                >
+                    <img src={robot_3d} alt='' className='robot--image' />
+                </canvas>
+
 
                 <div className="explain--text">
 
