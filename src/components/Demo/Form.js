@@ -21,7 +21,10 @@ function Form() {
     };
 
     return (
-        <div className="form-container">
+        <div
+            className="form-container"
+            style={{ height: window.innerHeight }}
+        >
             <div className="leftside--form-container">
                 <div className="title--form-container">
                     <div className="title-container">
