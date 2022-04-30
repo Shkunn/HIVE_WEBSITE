@@ -44,7 +44,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 50vw;
+  width: 60vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -102,14 +102,16 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .nav-links {
     text-align: center;
     padding: 2rem;
     width: 100%;
-    display: table;
-    margin-top: -65vh;
 
     color: #fff;
     font-family: 'Gilroy-Light';
@@ -125,7 +127,7 @@
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 90%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
@@ -133,7 +135,6 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
-    margin-top: -60vh;
 
     font-family: 'Gilroy-Light';
   }
