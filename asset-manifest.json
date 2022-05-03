@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5cef0ccc.css",
-    "main.js": "/static/js/main.7fa2a31a.js",
+    "main.js": "/static/js/main.e58a2cef.js",
     "static/media/Devo_Promo.mp4": "/static/media/Devo_Promo.9f3f10e5570fa36ec7e1.mp4",
     "static/media/MK3-allee.jpg": "/static/media/MK3-allee.15738e347f91f0bd1956.jpg",
     "static/media/MK3-garden.jpg": "/static/media/MK3-garden.6564c8222a6e0981c70e.jpg",
@@ -30,10 +30,10 @@
     "static/media/hiverbtcsLock-up - Color.svg": "/static/media/hiverbtcsLock-up - Color.b65a8bb81f22922fea2bde3e7261f1d9.svg",
     "index.html": "/index.html",
     "main.5cef0ccc.css.map": "/static/css/main.5cef0ccc.css.map",
-    "main.7fa2a31a.js.map": "/static/js/main.7fa2a31a.js.map"
+    "main.e58a2cef.js.map": "/static/js/main.e58a2cef.js.map"
   },
   "entrypoints": [
     "static/css/main.5cef0ccc.css",
-    "static/js/main.7fa2a31a.js"
+    "static/js/main.e58a2cef.js"
   ]
 }
