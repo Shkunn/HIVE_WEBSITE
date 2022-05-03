@@ -6,7 +6,7 @@ function VideoBandeau() {
         <>
             <div className="div-empty"></div>
             <div className="videobandeau-container">
-                <video className='video-bandeau' autoplay loop muted playsinline>
+                <video className='video-bandeau' autoPlay loop muted playsInline>
                     <source src={BackVideo} type='video/mp4' />
                 </video>
             </div >
