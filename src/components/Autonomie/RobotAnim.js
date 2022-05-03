@@ -109,19 +109,13 @@ function RobotAnim() {
                 style={{ opacity: scrollOpacity }}
             >
 
-                {/* <canvas
-                    ref={canvas}
-                    width={300}
-                    height={256 + 80}
-                    style={{
-                        backgroundColor: 'red',
-                        // height: '100%',
-                        // width: '100%'
-                    }}
-                > */}
+                {/* <div className="div-robot--image">
+                    <div class="div-robot__lidar1"></div>
+                    <div class="div-robot__lidar10"></div>
+                    <div class="div-robot__lidar11"></div>
+                    <div class="div-robot__lidarar">Lidar arrière</div>
+                </div> */}
                 <img src={robot_3d} alt='' className='robot--image' />
-                {/* </canvas> */}
-
 
                 <div className="explain--text">
 

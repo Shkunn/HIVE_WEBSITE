@@ -19,9 +19,44 @@
     top: 0%;
 }
 
+/* .div-robot--image {
+    position: relative;
+    width: 60%;
+
+    background-color: rebeccapurple;
+}
+
+.div-robot__lidar1 {
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    height: 5%;
+    width: 5%;
+    border: 1px solid orange;
+}
+
+.div-robot__lidarar {
+    position: absolute;
+    left: 6%;
+    top: 60%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.div-robot__lidarar:after {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    content: '';
+    border-top: 1px solid white;
+    width: 40%;
+} */
+
 .robot--image {
     width: 60%;
 }
+
 
 .explain--text {
     position: absolute;
