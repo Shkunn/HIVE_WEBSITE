@@ -1,5 +1,5 @@
 import './VideoPerception.css';
-// import BackVideo from "../../videos/REX.mp4"
+import BackVideo from "../../videos/robot_simu.mp4"
 
 
 function VideoPerception() {
@@ -17,9 +17,9 @@ function VideoPerception() {
             </div>
 
             <div className="video--perception">
-                {/* <video className='video' autoPlay loop muted>
+                <video className='video' autoPlay loop muted playsInline>
                     <source src={BackVideo} type='video/mp4' />
-                </video> */}
+                </video>
             </div>
 
             <div className="description--video--perception">
